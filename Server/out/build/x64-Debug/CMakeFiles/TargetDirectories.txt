@@ -1,0 +1,3 @@
+C:/Users/jadyk/Desktop/chat_source/Server/out/build/x64-Debug/CMakeFiles/Server.dir
+C:/Users/jadyk/Desktop/chat_source/Server/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/jadyk/Desktop/chat_source/Server/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

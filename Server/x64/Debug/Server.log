@@ -1,0 +1,10 @@
+﻿  ConsoleChat.cpp
+C:\Users\jadyk\Desktop\chat_source\Server\ConsoleChat.h(7,10): fatal  error C1083: Cannot open include file: 'mysql_connection.h': No such file or directory
+  main.cpp
+C:\Users\jadyk\Desktop\chat_source\Server\ConsoleChat.h(7,10): fatal  error C1083: Cannot open include file: 'mysql_connection.h': No such file or directory
+  Message.cpp
+  NetWorkStream.cpp
+  sha1.cpp
+C:\Users\jadyk\Desktop\chat_source\Server\sha1.cpp(55,20): warning C4018: '<': signed/unsigned mismatch
+  User.cpp
+  Generating Code...
