@@ -83,10 +83,9 @@ CREATE TABLE `table_messages` (
 
 alter table table_users add column status int default 0;
 
-Для подключения БД к Qt:
-нужно скачать версию драйверов MySQL 
-qsqlmysql.dll_Qt_SQL_driver_...zip
-распаковать в файл с программой
+Для подключения GUI сервера к БД:
+нужно скачать версию драйверов MySQL и распаковать в папку с исполняемым файлом. (если сборка в build->debug, распаковать в build->debug->debug)
+qsqlmysql.dll_Qt_SQL_driver_6.6.0_MSVC2019_64-bit.zip содержит драйвера для Qt 6.6.0
 
 Server компилировать в RELEASE X32 (не Debug, под ним в windows c mysqlconnector баг)
 
