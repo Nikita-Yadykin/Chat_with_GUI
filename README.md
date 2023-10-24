@@ -81,6 +81,13 @@ CREATE TABLE `table_messages` (
   CONSTRAINT `table_messages_ibfk_2` FOREIGN KEY (`recepient_id`) REFERENCES `table_users` (`id`) ON DELETE CASCADE
 )
 
+alter table table_users add column status int default 0;
+
+Для подключения БД к Qt:
+нужно скачать версию драйверов MySQL 
+qsqlmysql.dll_Qt_SQL_driver_...zip
+распаковать в файл с программой
+
 Server компилировать в RELEASE X32 (не Debug, под ним в windows c mysqlconnector баг)
 
 Настройка Microsoft Visual Studio:
