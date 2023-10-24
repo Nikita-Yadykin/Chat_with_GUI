@@ -1,4 +1,6 @@
 !.gitignore
 *.user
-/build/debug/*
-/build/release/*
+chatclient/build/debug*
+chatclient/build/release*
+chatserver/build/debug*
+chatserver/build/release*
